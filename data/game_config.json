@@ -1,0 +1,14 @@
+{
+  "description_rounds": 3,
+  "roles": {
+    "4": {"civilians": 3, "undercovers": 1},
+    "5": {"civilians": 4, "undercovers": 1},
+    "6": {"civilians": 5, "undercovers": 1},
+    "7": {"civilians": 6, "undercovers": 1},
+    "8": {"civilians": 6, "undercovers": 2}
+  },
+  "points": {
+    "civilian_win_per_civilian": 2,
+    "infiltrator_win_per_undercover": 10
+  }
+}

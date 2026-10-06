@@ -1,0 +1,14 @@
+.env
+.venv/
+.git/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+tests/
+specs/
+docs/
+.specify/
+.claude/
+data/*.db

@@ -1,0 +1,15 @@
+name: undercover
+
+services:
+  bot:
+    build: .
+    env_file: .env
+    environment:
+      # Base SQLite sur le volume : la partie en cours survit à un redémarrage
+      DATABASE_URL: sqlite+aiosqlite:////app/storage/undercover.db
+    volumes:
+      - undercover-data:/app/storage
+    restart: unless-stopped
+
+volumes:
+  undercover-data:

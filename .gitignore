@@ -1,0 +1,12 @@
+*.egg-info/
+*.pyc
+.claude/settings.local.json
+.coverage
+.env
+.pytest_cache/
+.ruff_cache/
+.venv/
+__pycache__/
+backups/
+data/*.db
+deploy/*.zip
